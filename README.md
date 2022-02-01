@@ -1,4 +1,4 @@
-# Very short description of the package
+# Check Operator for the phonenumber in cameroon
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ gildastema/phonenumber.svg?style=flat-square)](https://packagist.org/packages/ gildastema/phonenumber)
 [![Total Downloads](https://img.shields.io/packagist/dt/ gildastema/phonenumber.svg?style=flat-square)](https://packagist.org/packages/ gildastema/phonenumber)
