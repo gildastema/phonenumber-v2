@@ -1,0 +1,42 @@
+{
+    "name": "gildastema/phonenumber",
+    "description": "PHP Package for determine operator in cameroon",
+    "keywords": [
+        " gildastema",
+        "phonenumber"
+    ],
+    "homepage": "https://github.com/gildastema/phonenumber",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gildas Tema",
+            "email": "gildastema3@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gildastema\\Phonenumber\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gildastema\\Phonenumber\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
